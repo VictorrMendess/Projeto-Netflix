@@ -1,0 +1,170 @@
+body{
+background-image: linear-gradient(85deg, rgb(0, 0, 0),rgb(19, 18, 18),rgb(0, 0, 0));
+    height: 100vh;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    z-index: 0;
+        
+}
+
+#box1{
+    background-image: url(../Netflix/imagens/imagem1_135.jpg);
+    transition: all 0.5s;
+    cursor: pointer;
+    
+
+}
+#box1:hover{
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+    background-image: url(../Netflix/imagens/imagem_1_137.jpg);
+    box-shadow: 5px 10px 13px 2.8px rgba(255, 0, 0, 0.25) ;
+
+}
+#box2{
+    background-image: url(../Netflix/imagens/img2_135.jpeg);
+    transition: all 0.5s;
+    cursor: pointer;
+    z-index: 1;
+}
+#box2:hover{
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+    background-image: url(../Netflix/imagens/img2_137.jpeg);
+    box-shadow: 5px 10px 13px 2.8px rgba(255, 0, 0, 0.25) ;
+}
+#box3{
+    background-image: url(../Netflix/imagens/img3_135.jpeg);
+    transition: all 0.5s;
+    cursor: pointer;
+    z-index: 1;
+}
+#box3:hover{
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+    background-image: url(../Netflix/imagens/img3_137.jpeg);
+    box-shadow: 5px 10px 13px 2.8px rgba(255, 0, 0, 0.25) ;
+}
+#box4{
+    background-image: url(../Netflix/imagens/mais_des_135.png);
+    transition: all 0.5s;
+    cursor: pointer;
+    z-index: 1;
+}
+#box4:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    background-image: url(../Netflix/imagens/mais_at_137.png);
+    box-shadow: 5px 10px 13px 2.8px rgba(255, 0, 0, 0.25) ;
+}
+
+
+
+
+
+
+
+
+
+
+
+.sub1{
+    position: absolute;
+    
+}
+.insid1{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    position: relative;
+    height: 20px;
+    width: 500px;
+    top: 355px;
+    cursor: pointer;
+    transition: all 0.5s;
+    color: #fff;
+
+}
+.insid1:hover{
+color: rgb(245, 40, 40);
+text-shadow:   5px 10px 13px 2.8px rgba(217, 9, 224, 0.25);
+}
+
+.sub2{
+    position: absolute;
+}
+.insid2{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    position: relative;
+    height: 500px;
+    width: 225px;
+    top: 355px;
+    transition: all 0.5s;
+    color: #fff;
+    cursor: pointer;
+
+
+}
+.insid2:hover{
+color: rgb(245, 40, 40);
+text-shadow:   5px 10px 13px 2.8px rgba(217, 9, 224, 0.25);
+}
+.sub3{
+    position: absolute;
+}
+.insid3{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    height: 100%;
+    width:430%;
+    top: 355px;
+    transition: all 0.5s;
+    color: #fff;
+    cursor: pointer;
+    z-index: 1;
+}
+.insid3:hover{
+color: rgb(245, 40, 40);
+text-shadow:   5px 10px 13px 2.8px rgba(217, 9, 224, 0.25);
+}
+
+.sub4{
+    position: absolute;
+}
+.insid4{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    height: 100%;
+    width:900%;
+    top: 355px;
+    transition: all 0.5s;
+    color: #fff;
+    cursor: pointer;
+
+}
+.insid4:hover{
+color: rgb(245, 40, 40);
+text-shadow:   5px 10px 13px 2.8px rgba(217, 9, 224, 0.25);
+}
+.quest{
+    position: absolute;
+    z-index: -1;
+}
+.quest_top{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    position: relative;
+    height: 500px;
+    width: -50px;
+    top: 100px;
+    
+}

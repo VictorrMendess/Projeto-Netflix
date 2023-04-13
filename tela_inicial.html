@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela incial</title>
+
+      <link rel="stylesheet"
+    type="text/css"
+    href="tela_inicial_styles.css">
+    <link rel="icon" type="image/favicon" href="./imagens/logo_top.png">
+
+
+
+</head>
+<body>
+    <div class="nav" id="nav">
+        <img class="nav_logo"src="imagens/logo_.png" alt="">
+        <button class="src">
+            <input class="pesquisa" placeholder="Procurar" type="text">
+        </button>
+        <img class="nav_avatar"src="imagens/imagem_1_137.jpg" alt="">
+    
+    </div>
+    
+    <header class="banner">
+        <div class="banner__contents">
+            <h1 class="banner__title">Por que eu te amo?</h1>
+            <div class="banner__buttons">
+                <button class="banner__button" a href="Assistir.html">
+                    <a href="Assistir.html" style="color: white;text-decoration: none;">Assistir</a> 
+                </button>
+                <button class="banner__button">Minha Lista</button>
+            </div>
+
+            <h1 class="banner__description">Quando eu digo que te amo, não e por força do habito, eu digo pra te lembrar que vc foi a melhor coisa que aconteçeu na minha vida.<br>
+                Eu sou eternamente  grato a Deus por ter botado voce em meu caminho,ter feito meus dias serem bem melhores.</h1>
+        </div>
+
+        <div class="banner--fadeBottom"></div>
+
+    </header>
+
+    <div class="row">
+        <h2>Originais Netflix</h2>
+        <div class="row__posters">
+            <img class="row__poster row__posterLarge"
+             src="./imagens/poster_1.jpg" alt="">
+             <img class="row__poster row__posterLarge"
+             src="./imagens/poster_2.jpg" alt="">
+             <img class="row__poster row__posterLarge"
+             src="./imagens/poster_3.jpg" alt="">
+             <img class="row__poster row__posterLarge"
+             src="./imagens/poster_4.jpg" alt="">
+             <img class="row__poster row__posterLarge"
+             src="./imagens/poster_5.jpg" alt="">
+             <img class="row__poster row__posterLarge"
+             src="./imagens/poster_6.jpg" alt="">
+             <img class="row__poster row__posterLarge"
+             src="./imagens/poster_7.jpg" alt="">
+             <img class="row__poster row__posterLarge"
+             src="./imagens/poster_8.jpg" alt="">
+
+        </div>
+    </div>
+
+    <div class="row">
+        <h2>Inicio</h2>
+        <div class="row__posters">
+            <img class="row__poster" src="./imagens/inicio_1.jpg" alt="">
+            <img class="row__poster" src="./imagens/inicio_2.jpg" alt="">
+            <img class="row__poster" src="./imagens/inicio_3.jpg" alt="">
+            <img class="row__poster" src="./imagens/inicio_4.jpg" alt="">
+            <img class="row__poster" src="./imagens/inicio_5.jpg" alt="">
+            <img class="row__poster" src="./imagens/inicio_6.jpg" alt="">
+            
+        </div>
+    </div>
+    <div class="row">
+        <h2>Viagem</h2>
+        <div class="row__posters">
+            <img class="row__poster" src="./imagens/Viagem_1.jpg" alt="">
+            <img class="row__poster" src="./imagens/Viagem_2.jpg" alt="">
+            <img class="row__poster" src="./imagens/Viagem_3.jpg" alt="">
+            <img class="row__poster" src="./imagens/Viagem_4.jpg" alt="">
+            <img class="row__poster" src="./imagens/Viagem_5.jpg" alt="">
+            <img class="row__poster" src="./imagens/Viagem_6.jpg" alt="">
+            <img class="row__poster" src="./imagens/Viagem_7.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="row">
+        <h2>Terror</h2>
+        <div class="row__posters">
+            <img class="row__poster" src="./imagens/novidades_1.jpeg" alt="">
+            <img class="row__poster" src="./imagens/novidades_2.jpeg" alt="">
+            <img class="row__poster" src="./imagens/novidades_3.jpeg" alt="">
+            <img class="row__poster" src="./imagens/novidades_4.jpeg" alt="">
+            <img class="row__poster" src="./imagens/novidades_5.jpeg" alt="">
+            <img class="row__poster" src="./imagens/novidades_6.jpeg" alt="">
+            <img class="row__poster" src="./imagens/novidades_7.jpeg" alt="">
+            <img class="row__poster" src="./imagens/novidades_8.jpeg" alt="">
+        </div>
+    </div>
+
+    <script>
+        const nav = document.getElementById('nav');
+        window.addEventListener('scroll', ()=>{
+            if(window.scrollY>=100){
+                nav.classList.add('nav__black')
+            }else {
+                nav.classList.remove('nav__black')
+            }
+        })
+        
+    </script>
+
+
+</body>
+</html> 
